@@ -1,1 +1,3 @@
 # Homestay-billing-Automation
+**Automated Billing for Nature Valley Homestay**  
+A Java program to automate the billing process for Nature Valley Homestay. The homestay offers three room types: "Standard," "Deluxe," and "Cottage," with varying base fares. Features include validating room types, stay duration (1-15 days), and extra persons (0-2). Implements a `RoomBillComponent` interface for bill components like food charges, extra person charges, and taxes. The `RoomDetails` class auto-generates `billId` starting from 101 and calculates the total bill using given formulas. The tester class demonstrates the functionality by displaying bill details for a customer, including customer name, stay duration, and total bill.
